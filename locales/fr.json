@@ -1,0 +1,95 @@
+{
+  "lang": "fr",
+  "links": {
+    "home": "Accueil",
+    "about": "À propos",
+    "resume": "CV",
+    "teaching": "Enseignements",
+    "contact": "Contact",
+    "english": "Version Anglaise",
+    "french": "Version Française"
+  },
+  "home": {
+    "title": "Bienvenue",
+    "about_me": "À propos de moi",
+    "introduction": "Posséde une maîtrise en génie logiciel et une licence en génie informatique. Actuellement travaillant comme consultant, assistant et entrepreneur dans les secteurs de l'informatiqueCeci est un texte d'introduction en Français."
+  },
+  "about": {
+    "title": "À propos",
+    "introduction": ""
+  },
+  "resume": {
+    "title": "Resume",
+    "introduction": "",
+    "education": "Etudes Faites",
+    "masters": "Master en Génie Logiciel (M.E)",
+    "bachelors": "Licence en Génie Informatique (B.Sc)",
+    "professional_training": "Formations Professionnelles",
+    "training": {
+      "chinese": "Introduction to Chinese Language",
+      "ccna": "Cisco Certified Network",
+      "android": "Android Application Development",
+      "administration": "IT Infrastructure Administration"
+    },
+    "professional_experience": "Expériences Professionnelles",
+    "professional": {
+      "hannation": "Senior Web Developer",
+      "edge": "Web Developer and Lua Programming instructor",
+      "ccfc": "Développeur Web et administrateur du site de la Communauté des congolais en Formation en chine",
+      "caritas": "Senior Web Developer",
+      "ades": "Senior Web Developer",
+      "sudan_school": "Senior Web Developer",
+      "maranatha": "Senior Web Developer",
+      "jerm": "Computer Engineer Intern",
+      "monaco_institute": "Network Technician Intern",
+      "ict_center": "Network Technician Intern"
+    },
+    "personal_projects": "Projets Personnels",
+    "projects": {
+      "lingala": "Android mobile application for teaching basic Lingala",
+      "exetat": "An educational android application that helps high school finalists prepare for their final exams by providing some helpful syllabus and past papers",
+      "wikilangue": "A wiki website that provides a platform where users can be able to add and edit different languages",
+      "xlszipsave": "An open source javascript json transformer to create, save and zip excel document file type"
+    },
+    "awards": "Awards",
+    "my_skills": "Compétences",
+    "skills": {
+      "languages": "Langues",
+      "design": "Design",
+      "os": "Operating System",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "web_automation": "Web Development Automation",
+      "web_package_manager": "Web Development Package Manager",
+      "desktop_dev": "Desktop Application Development",
+      "mobile_dev": "Mobile Application Development",
+      "electronic": "Electronique",
+      "collaboration": "Team Collaboration",
+      "version_control": "Version Control",
+      "testing": "Testing"
+    }
+  },
+  "teaching": {
+    "title": "Enseignements",
+    "introdution": "",
+    "academic_year": "Academic Year",
+    "umc": {
+      "database": "Système d’informatique et les bases de données"
+    }
+  },
+  "all": {
+    "english": "Anglais",
+    "french": "Francais",
+    "chinese": "Chinois",
+    "lingala": "Lingala",
+    "swahili": "Swahili",
+    "download_cv": "Télécharger le CV",
+    "email": "Email",
+    "phone": "Phone",
+    "drc": "R.D.Congo",
+    "residence": "Résidence",
+    "uganda": "Ouganda",
+    "china": "Chine",
+    "to_present": "TO PRESENT"
+  }
+}

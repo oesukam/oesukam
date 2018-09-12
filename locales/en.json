@@ -1,0 +1,95 @@
+{
+  "lang": "en",
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "resume": "Resume",
+    "teaching": "Teaching",
+    "contact": "Contact",
+    "english": "English version",
+    "french": "French version"
+  },
+  "home": {
+    "title": "Welcome",
+    "about_me": "About me",
+    "introduction": "Own a masters in software engineering and a bachelor in computer engineering. Currently working as teaching assistant and an entrepreneur in IT sectors."
+  },
+  "about": {
+    "title": "About",
+    "introduction": ""
+  },
+  "resume": {
+    "title": "Resume",
+    "introduction": "",
+    "education": "Education",
+    "masters": "Masters in Software Engineering (M.E)",
+    "bachelors": "Bachelor of Science in Computer Engineering (B.Sc)",
+    "professional_training": "Professional Experiances",
+    "training": {
+      "chinese": "Introduction to Chinese Language",
+      "ccna": "Cisco Certified Network",
+      "android": "Android Application Development",
+      "administration": "IT Infrastructure Administration"
+    },
+    "professional_experience": "Professional Training",
+    "professional": {
+      "hannation": "Senior Web Developer",
+      "edge": "Web Developer and Lua Programming instructor",
+      "ccfc": "Web Master of Congolese ommunity studying in China (CCFC)",
+      "caritas": "Senior Web Developer",
+      "ades": "Senior Web Developer",
+      "sudan_school": "Senior Web Developer",
+      "maranatha": "Senior Web Developer",
+      "jerm": "Computer Engineer Intern",
+      "monaco_institute": "Network Technician Intern",
+      "ict_center": "Network Technician Intern"
+    },
+    "personal_projects": "Projets Personnels",
+    "projects": {
+      "lingala": "Android mobile application for teaching basic Lingala",
+      "exetat": "An educational android application that helps high school finalists prepare for their final exams by providing some helpful syllabus and past papers",
+      "wikilangue": "A wiki website that provides a platform where users can be able to add and edit different languages",
+      "xlszipsave": "An open source javascript json transformer to create, save and zip excel document file type"
+    },
+    "awards": "Prix",
+    "my_skills": "Skills",
+    "skills": {
+      "languages": "Languages",
+      "design": "Design",
+      "os": "Operating System",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "web_automation": "Web Development Automation",
+      "web_package_manager": "Web Development Package Manager",
+      "desktop_dev": "Desktop Application Development",
+      "mobile_dev": "Mobile Application Development",
+      "electronic": "Electronique",
+      "collaboration": "Team Collaboration",
+      "version_control": "Version Control",
+      "testing": "Testing"
+    }
+  },
+  "teaching": {
+    "title": "Lecturing",
+    "introdution": "",
+    "academic_year": "Academic Year",
+    "umc": {
+      "database": "Système d’informatique et les bases de données"
+    }
+  },
+  "all": {
+    "english": "English",
+    "french": "French",
+    "chinese": "Chinese",
+    "lingala": "Lingala",
+    "swahili": "Swahili",
+    "download_cv": "Download Resume",
+    "email": "Email",
+    "phone": "Phone",
+    "drc": "D.R.Congo",
+    "residence": "Residence",
+    "uganda": "Uganda",
+    "china": "China",
+    "to_present": "A PRESENT"
+  }
+}
