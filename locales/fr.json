@@ -33,16 +33,16 @@
     },
     "professional_experience": "Expériences Professionnelles",
     "professional": {
-      "hannation": "Senior Web Developer",
-      "edge": "Web Developer and Lua Programming instructor",
+      "hannation": "Développeur Web Seigneur",
+      "edge": "Développeur Web et instructeur de la programmation en Lua (Corona SDK) pour la création des jeux",
       "ccfc": "Développeur Web et administrateur du site de la Communauté des congolais en Formation en chine",
-      "caritas": "Senior Web Developer",
-      "ades": "Senior Web Developer",
-      "sudan_school": "Senior Web Developer",
-      "maranatha": "Senior Web Developer",
-      "jerm": "Computer Engineer Intern",
-      "monaco_institute": "Network Technician Intern",
-      "ict_center": "Network Technician Intern"
+      "caritas": "Développeur Web Seigneur",
+      "ades": "Développeur Web Seigneur",
+      "sudan_school": "Développeur Web Seigneur",
+      "maranatha": "Développeur Web Seigneur",
+      "jerm": "Ingénieur en informaticien - stagiaire",
+      "monaco_institute": "Technicien réseau - stagiaire",
+      "ict_center": "Technicien IT - stagiaire"
     },
     "personal_projects": "Projets Personnels",
     "projects": {
@@ -51,28 +51,28 @@
       "wikilangue": "A wiki website that provides a platform where users can be able to add and edit different languages",
       "xlszipsave": "An open source javascript json transformer to create, save and zip excel document file type"
     },
-    "awards": "Awards",
+    "awards": "Prix",
     "my_skills": "Compétences",
     "skills": {
       "languages": "Langues",
       "design": "Design",
-      "os": "Operating System",
+      "os": "Système d'exploitation",
       "frontend": "Frontend",
       "backend": "Backend",
-      "web_automation": "Web Development Automation",
-      "web_package_manager": "Web Development Package Manager",
-      "desktop_dev": "Desktop Application Development",
-      "mobile_dev": "Mobile Application Development",
+      "web_automation": "Automatisation du développement Web",
+      "web_package_manager": "Gestionnaire des bibliothèques du Développement Web ",
+      "desktop_dev": "Développement d'applications de bureau",
+      "mobile_dev": "Développement d'applications mobile ",
       "electronic": "Electronique",
-      "collaboration": "Team Collaboration",
-      "version_control": "Version Control",
+      "collaboration": "Outils de collaboration d’équipe",
+      "version_control": "Contrôle de version",
       "testing": "Testing"
     }
   },
   "teaching": {
     "title": "Enseignements",
     "introdution": "",
-    "academic_year": "Academic Year",
+    "academic_year": "Année Academique",
     "umc": {
       "database": "Système d’informatique et les bases de données"
     }
@@ -90,6 +90,6 @@
     "residence": "Résidence",
     "uganda": "Ouganda",
     "china": "Chine",
-    "to_present": "TO PRESENT"
+    "to_present": "A PRESENT"
   }
 }

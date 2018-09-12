@@ -7,11 +7,11 @@
             <img src="~/assets/images/olivier.png" class="profile" />
           </div>
           <div class="column is-two-third is-items-center is-content-center">
-            <div style="padding: 40px;">
-              <h1 class="title is-1 is-white">Olivier ESUKA MUSELEMU</h1>
+            <div class="intro-details">
+              <h2 class="title is-2 is-white">Olivier ESUKA MUSELEMU</h2>
               <div class="social-links">
                 <a href="https://www.linkedin.com/in/olivier-esuka-65763983/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+                <!-- <a href="#" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a> -->
                 <a href="https://github.com/oesukam" target="_blank" title="Github"><i class="fa fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/olivier-esuka-65763983/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
               </div>
@@ -99,6 +99,9 @@ export default {
     -o-box-shadow: 0 18px 24px rgba(0,0,0,.15);
     box-shadow: 0 18px 24px rgba(0,0,0,.15)
   }
+  .intro-details {
+    padding: 40px;
+  }
   .social-links {
     position: relative;
     text-align: center;
@@ -124,6 +127,11 @@ export default {
   }
   .home-table {
     margin: 0 auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 500px) {
+    .intro-details {
+      padding: 40px 10px;
+    }
   }
 </style>

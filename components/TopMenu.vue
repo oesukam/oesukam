@@ -2,7 +2,7 @@
   <div class="container top-mobile">
     <nav id="top-menu" class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand is-items-center">
-        <a class="navbar-item" href="/">
+        <a id="top-names" href="/">
           <h1 class="site-title">Olivier<span>ESUKA</span></h1>
         </a>
 
@@ -163,5 +163,12 @@
     color: #fff;
     font-weight: 600;
   }
-
+  #top-names {
+    color: #4a4a4a;
+    display: block;
+    line-height: 1.5;
+    padding: 8px 12px;
+    padding: 0.5rem 0.75rem;
+    position: relative;
+  }
 </style>
