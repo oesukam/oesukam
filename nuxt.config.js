@@ -43,7 +43,7 @@ module.exports = {
 
   generate: {
     routes: [
-      '/', '/cv', '/ensignements', '/contact',
+      '/', '/resume', 'teaching', '/contact',
       '/en', '/en/resume', '/en/teaching', '/en/contact'
     ]
   },
