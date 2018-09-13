@@ -24,6 +24,9 @@
             <nuxt-link :to="$i18n.path('teaching')">{{$t('links.teaching')}}</nuxt-link>
           </div>
           <div class="navbar-item">
+            <nuxt-link :to="$i18n.path('products')">{{$t('links.electronic_products')}}</nuxt-link>
+          </div>
+          <div class="navbar-item">
             <nuxt-link :to="$i18n.path('contact')">{{$t('links.contact')}}</nuxt-link>
           </div>
           <div v-if="$i18n.locale === 'fr'" class="navbar-item">
