@@ -153,6 +153,26 @@ export default {
           desc_en: '',
           price: 9,
           type: 'sensor'
+        },
+        liquid_pump_12v_4l: {
+          url: 'liquid_pump_12v_4l',
+          image: require('~/assets/images/products/liquid_pump_12v_4l.jpg'),
+          title_fr: "Pompe à eau",
+          title_en: 'Water Pump (4L/Min)',
+          desc_fr: '',
+          desc_en: '',
+          price: 40,
+          type: 'pump'
+        },
+        mini_gprs_gms_sim800l: {
+          url: 'mini_gprs_gms_sim800l',
+          image: require('~/assets/images/products/mini_gprs_gms_sim800l.jpg'),
+          title_fr: "GPRS GSM SIM800L",
+          title_en: 'GPRS GSM SIM800L',
+          desc_fr: '',
+          desc_en: '',
+          price: 43,
+          type: 'gsm'
         }
       }
     }
