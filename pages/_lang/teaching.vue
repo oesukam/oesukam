@@ -14,9 +14,9 @@
               <div class="timeline-item">
                 <h4 class="item-title">UMC - Université Mariste du Congo</h4>
                 <span class="item-small">Kisangani</span>
-                <ul class="item-list">
+                <!-- <ul class="item-list">
                   <li>Système d’informatique et les bases de données</li>
-                </ul>
+                </ul> -->
               </div>
             </div>
 
