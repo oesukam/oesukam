@@ -10,14 +10,23 @@
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.masters')}}</h4>
                 <span class="item-period">2016 - 2018</span>
-                <span class="item-small">Wuhan University</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
+                <span class="item-small">Wuhan University, {{$t('all.china')}}</span>
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.bachelors')}}</h4>
                 <span class="item-period">2011 - 2015</span>
-                <span class="item-small">Kampala Internationl University</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
+                <span class="item-small">Kampala Internationl University, {{$t('all.uganda')}}</span>
+              </div>
+            </div>
+            <div class="fw-divider-space"></div>
+          </div>
+          <div class="column is-half">
+            <h3 class="title is-3">Publications</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <h4 class="item-title">Blockchain Technology in Pharmaceutical Industry to Prevent Counterfeit Drugs</h4>
+                <span class="item-period">2018/03</span>
+                <span class="item-small">International Journal of Computer Applications (0975 – 8887) Volume 180 – No.25, {{$t('all.usa')}}</span>
               </div>
             </div>
             <div class="fw-divider-space"></div>
@@ -29,25 +38,21 @@
                 <h4 class="item-title">{{$t('resume.training.chinese')}}</h4>
                 <span class="item-period">2016/03 – 2016/06</span>
                 <span class="item-small">Wuhan Univsersity, {{$t('all.china')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.training.ccna')}}</h4>
                 <span class="item-period">2013/08 – 2013/12</span>
                 <span class="item-small">Monaco Institute, {{$t('all.uganda')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.training.android')}}</h4>
                 <span class="item-period">2013/07 – 2013/08</span>
                 <span class="item-small">Zalego Institute, {{$t('all.uganda')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.training.administration')}}</h4>
                 <span class="item-period">2013/04 – 2013/08</span>
                 <span class="item-small">ICTCenter trainining center, {{$t('all.uganda')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
             </div>
             <div class="fw-divider-space"></div>
@@ -59,67 +64,56 @@
                 <h4 class="item-title">{{$t('resume.professional.hannation')}}</h4>
                 <span class="item-period">2017/01 – 2018/03</span>
                 <span class="item-small">Hannation Technology, {{$t('all.china')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.edge')}}</h4>
                 <span class="item-period">2017/06 – 2017/09</span>
                 <span class="item-small">Edge Program, {{$t('all.china')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.ccfc')}}</h4>
                 <span class="item-period">2017/06 – {{$t('all.to_present')}}</span>
                 <span class="item-small">CCFC, {{$t('all.china')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.ades')}}</h4>
                 <span class="item-period">2016/01 – 2016/02</span>
                 <span class="item-small">CARITAS Kisangani, {{$t('all.drc')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.ades')}}</h4>
                 <span class="item-period">2015/09 – 2018/01</span>
                 <span class="item-small">ADES ASBL, {{$t('all.drc')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.sudan_school')}}</h4>
                 <span class="item-period">2015/07 – 2015/08</span>
                 <span class="item-small">International School of Sudan, {{$t('all.uganda')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.sudan_school')}}</h4>
                 <span class="item-period">2013/08 – 2015/02</span>
                 <span class="item-small">World Mission Maranatha Church, {{$t('all.uganda')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.maranatha')}}</h4>
                 <span class="item-period">2013/08 – 2015/02</span>
                 <span class="item-small">World Mission Maranatha Church, {{$t('all.uganda')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.jerm')}}</h4>
                 <span class="item-period">2014/04 – 2014/07</span>
                 <span class="item-small">Jerm Technology, {{$t('all.uganda')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.monaco_institute')}}</h4>
                 <span class="item-period">2014/04 – 2014/07</span>
                 <span class="item-small">Monaco Institute of Business and Computer Science, {{$t('all.uganda')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.ict_center')}}</h4>
                 <span class="item-period">2012/04 – 20128/07</span>
                 <span class="item-small">ICTCenter Training center, {{$t('all.uganda')}}</span>
-                <!-- <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p> -->
               </div>
             </div>
             <div class="fw-divider-space"></div>

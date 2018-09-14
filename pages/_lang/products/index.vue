@@ -67,8 +67,8 @@ export default {
         nodemcu_esp8266: {
           url: 'nodemcu_esp8266',
           image: require('~/assets/images/products/nodemcu_esp8266.png'),
-          title_fr: 'NodeMCU ESP8266',
-          title_en: 'NodeMCU ESP8266',
+          title_fr: 'NodeMCU ESP8266 (Wifi)',
+          title_en: 'NodeMCU ESP8266 (Wifi)',
           desc_fr: '',
           desc_en: '',
           price: 22,

@@ -26,14 +26,14 @@
     "education": "Education",
     "masters": "Masters in Software Engineering (M.E)",
     "bachelors": "Bachelor of Science in Computer Engineering (B.Sc)",
-    "professional_training": "Professional Experiances",
+    "professional_training": "Professional Training",
     "training": {
       "chinese": "Introduction to Chinese Language",
-      "ccna": "Cisco Certified Network",
+      "ccna": "Cisco CCNA",
       "android": "Android Application Development",
       "administration": "IT Infrastructure Administration"
     },
-    "professional_experience": "Professional Training",
+    "professional_experience": "Professional Experiences",
     "professional": {
       "hannation": "Senior Web Developer",
       "edge": "Web Developer and Lua Programming instructor",
@@ -89,6 +89,7 @@
     "email": "Email",
     "phone": "Phone",
     "drc": "D.R.Congo",
+    "usa": "USA",
     "residence": "Residence",
     "uganda": "Uganda",
     "china": "China",
