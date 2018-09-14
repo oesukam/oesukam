@@ -51,7 +51,7 @@ export default {
           title_en: 'Arduino Uno v3 MEGA328P',
           desc_fr: '',
           desc_en: '',
-          price: 25,
+          price: 30,
           type: 'arduino'
         },
         uno_atmega: {
@@ -61,7 +61,7 @@ export default {
           title_en: 'Arduino Uno v3 ATmega328P',
           desc_fr: '',
           desc_en: '',
-          price: 35,
+          price: 40,
           type: 'arduino'
         },
         nodemcu_esp8266: {
