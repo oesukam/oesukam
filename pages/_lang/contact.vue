@@ -21,6 +21,13 @@
                   </div>
                 </td>
                 <td>contact@oesukam.me</td>
+              </tr><tr>
+                <td>
+                  <div class="contact-icon">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                </td>
+                <td>+243972734435</td>
               </tr>
             </table>
           </div>
