@@ -124,6 +124,16 @@ export default {
           price: 18.5,
           type: 'breadboard'
         },
+        pcb_coper_s1: {
+          url: 'pcb_coper_s1',
+          image: require('~/assets/images/products/pcb_coper_s1.jpg'),
+          title_fr: 'Plaque à simple face en cuivre',
+          title_en: 'Single Side Copper Clad plate',
+          desc_fr: '',
+          desc_en: '',
+          price: 6.5,
+          type: 'pcb'
+        },
         ultrasonic: {
           url: 'ultrasonic',
           image: require('~/assets/images/products/ultrasonic.jpeg'),
@@ -173,6 +183,56 @@ export default {
           desc_en: '',
           price: 43,
           type: 'gsm'
+        },
+        servo_motor_sg90: {
+          url: 'servo_motor_sg90',
+          image: require('~/assets/images/products/servo_motor_sg90.jpg'),
+          title_fr: "Mini Tower Pro Servo Motor SG90",
+          title_en: 'Mini Tower Pro Servo Motor SG90',
+          desc_fr: '',
+          desc_en: '',
+          price: 12,
+          type: 'servo_motor'
+        },
+        servo_motor_mg995: {
+          url: 'servo_motor_mg995',
+          image: require('~/assets/images/products/servo_motor_mg995.jpg'),
+          title_fr: "Tower Pro Servo Motor MG995",
+          title_en: 'Tower Pro Servo Motor MG995',
+          desc_fr: '',
+          desc_en: '',
+          price: 16,
+          type: 'servo_motor'
+        },
+        motor_driver_L293D_control_shield: {
+          url: 'motor_driver_L293D_control_shield',
+          image: require('~/assets/images/products/motor_driver_L293D_control_shield.jpg'),
+          title_fr: "L293D Carte d'extension de moteur L293D POUR blindage de moteur Arduino",
+          title_en: 'L293D motor drive expansion board FOR Arduino motor shield',
+          desc_fr: '',
+          desc_en: '',
+          price: 18,
+          type: 'motor_controller'
+        },
+        motor_driver_L9110S_control_shield: {
+          url: 'motor_driver_L9110S_control_shield',
+          image: require('~/assets/images/products/motor_driver_L9110S_control_shield.jpg'),
+          title_fr: "L9110S Contrôleur de pilote de moteur pas à pas à double courant continu de moteur pas à pas de pont en H",
+          title_en: 'L9110S H-bridge Stepper Motor Dual DC Stepper Motor Driver Controller',
+          desc_fr: '',
+          desc_en: '',
+          price: 7,
+          type: 'motor_controller'
+        },
+        ir_remote_receiver: {
+          url: 'ir_remote_receiver',
+          image: require('~/assets/images/products/ir_remote_receiver.jpg'),
+          title_fr: "Télécommande IR et récepteur",
+          title_en: 'IR Remote & Receiver',
+          desc_fr: '',
+          desc_en: '',
+          price: 9,
+          type: 'infrared'
         }
       }
     }
