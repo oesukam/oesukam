@@ -256,10 +256,25 @@
               <progress class="progress is-info" value="90" max="100">90%</progress>
 
               <h4 class="title is-5">NodeJS & MongoDB</h4>
-              <progress class="progress is-info" value="80" max="100">90%</progress>
+              <progress class="progress is-info" value="80" max="100">80%</progress>
 
               <h4 class="title is-5">Flask Python</h4>
               <progress class="progress is-info" value="60" max="100">60%</progress>
+            </div>
+            <div class="divider-space"></div>
+          </div>
+
+          <!-- CMS -->
+          <div class="column is-half">
+            <div class="block-title">
+              <h3 class="title is-3">CMS</h3>
+            </div>
+            <div class="skills-info">
+              <h4 class="title is-5">WordPress</h4>
+              <progress class="progress is-info" value="90" max="100">90%</progress>
+
+              <h4 class="title is-5">Joomla</h4>
+              <progress class="progress is-info" value="80" max="100">80%</progress>
             </div>
             <div class="divider-space"></div>
           </div>
