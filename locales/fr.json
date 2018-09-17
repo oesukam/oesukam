@@ -28,10 +28,10 @@
     "bachelors": "Licence en Génie Informatique (B.Sc)",
     "professional_training": "Formations Professionnelles",
     "training": {
-      "chinese": "Introduction to Chinese Language",
+      "chinese": "Introduction à la langue Chinoise",
       "ccna": "Cisco CCNA",
-      "android": "Android Application Development",
-      "administration": "IT Infrastructure Administration"
+      "android": "Développement d'applications Android",
+      "administration": "Administration de l'infrastructure informatique"
     },
     "professional_experience": "Expériences Professionnelles",
     "professional": {
