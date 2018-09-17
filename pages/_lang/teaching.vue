@@ -9,6 +9,25 @@
               <h3 class="title is-3 year-title">2018</h3>
               <h4 class="title is-3 acad-title">{{$t('teaching.academic_year')}}</h4>
             </div>
+            <!-- UMC -->
+            <div class="timeline">
+              <div class="timeline-item">
+                <h4 class="item-title">UMC - Université Mariste du Congo</h4>
+                <span class="item-small">Kisangani</span>
+                <!-- <ul class="item-list">
+                  <li>Système d’informatique et les bases de données</li>
+                </ul> -->
+              </div>
+            </div>
+
+            <div class="fw-divider-space"></div>
+          </div>
+
+          <div class="column is-half">
+            <div class="header-title">
+              <h3 class="title is-3 year-title">2019</h3>
+              <h4 class="title is-3 acad-title">{{$t('teaching.academic_year')}}</h4>
+            </div>
             <!-- UCK -->
             <div class="timeline">
               <div class="timeline-item">
@@ -31,7 +50,7 @@
               </div>
             </div>
 
-            <!-- ULM -->
+            <!-- ULK -->
             <div class="timeline">
               <div class="timeline-item">
                 <h4 class="item-title">ULK - Université Libre de Kisangani</h4>
