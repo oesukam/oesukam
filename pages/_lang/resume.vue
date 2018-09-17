@@ -278,6 +278,39 @@
             </div>
             <div class="divider-space"></div>
           </div>
+
+          <!-- Programming -->
+          <div class="column is-half">
+            <div class="block-title">
+              <h3 class="title is-3">{{$t('resume.skills.programming')}}</h3>
+            </div>
+            <div class="skills-info">
+              <h4 class="title is-5">PHP</h4>
+              <progress class="progress is-info" value="90" max="100">90%</progress>
+
+              <h4 class="title is-5">NodeJS</h4>
+              <progress class="progress is-info" value="100" max="100">100%</progress>
+
+              <h4 class="title is-5">Lua</h4>
+              <progress class="progress is-info" value="70" max="100">70%</progress>
+
+              <h4 class="title is-5">C</h4>
+              <progress class="progress is-info" value="80" max="100">80%</progress>
+
+              <h4 class="title is-5">C++</h4>
+              <progress class="progress is-info" value="70" max="100">70%</progress>
+
+              <h4 class="title is-5">Python</h4>
+              <progress class="progress is-info" value="70" max="100">70%</progress>
+
+              <h4 class="title is-5">C#</h4>
+              <progress class="progress is-info" value="60" max="100">60%</progress>
+
+              <h4 class="title is-5">Java</h4>
+              <progress class="progress is-info" value="70" max="100">70%</progress>
+            </div>
+            <div class="divider-space"></div>
+          </div>
         </div>
       </div>
     </Layout>
