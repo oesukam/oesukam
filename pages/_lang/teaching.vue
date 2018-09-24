@@ -60,6 +60,17 @@
                 </ul>
               </div>
             </div>
+
+            <!-- UC -->
+            <div class="timeline">
+              <div class="timeline-item">
+                <h4 class="item-title">Université du CEPROMAD</h4>
+                <span class="item-small">Kisangani</span>
+                <ul class="item-list">
+                  <!-- <li>Système d’informatique et les bases de données</li> -->
+                </ul>
+              </div>
+            </div>
             <div class="fw-divider-space"></div>
           </div>
         </div>

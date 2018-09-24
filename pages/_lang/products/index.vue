@@ -231,8 +231,28 @@ export default {
           title_en: 'IR Remote & Receiver',
           desc_fr: '',
           desc_en: '',
-          price: 9,
+          price: 11,
           type: 'infrared'
+        },
+        rfid_sensor_MFRC522: {
+          url: 'rfid_sensor_MFRC522',
+          image: require('~/assets/images/products/rfid_sensor_MFRC522.jpg'),
+          title_fr: "Capteur RFID",
+          title_en: 'RFID Sensor',
+          desc_fr: '',
+          desc_en: '',
+          price: 9,
+          type: 'sensor'
+        },
+        rfid_tag_RC522_13_56Mhz: {
+          url: 'rfid_tag_RC522_13_56Mhz',
+          image: require('~/assets/images/products/rfid_tag_RC522_13_56Mhz.jpg'),
+          title_fr: "Tag RFID",
+          title_en: 'RFID tag',
+          desc_fr: '',
+          desc_en: '',
+          price: 4,
+          type: 'tag'
         }
       }
     }
