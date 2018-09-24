@@ -241,7 +241,7 @@ export default {
           title_en: 'RFID Sensor',
           desc_fr: '',
           desc_en: '',
-          price: 9,
+          price: 27,
           type: 'sensor'
         },
         rfid_tag_RC522_13_56Mhz: {
