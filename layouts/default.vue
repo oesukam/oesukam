@@ -120,4 +120,8 @@ body {
 .pl-10 {
   padding-left: 10px;
 }
+.input:focus {
+  outline: none;
+  border: 1px solid #2196f3;
+}
 </style>

@@ -81,6 +81,7 @@
     }
   },
   "all": {
+    "search": "Rechercher",
     "english": "Anglais",
     "french": "Francais",
     "chinese": "Chinois",

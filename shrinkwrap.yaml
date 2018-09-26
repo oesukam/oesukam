@@ -1,8 +1,8 @@
 dependencies:
   '@nuxtjs/axios': 5.3.1
   '@nuxtjs/bulma': 1.2.0
-  '@nuxtjs/google-analytics': 2.0.2
   express: 4.16.3
+  lodash.some: 4.6.0
   nuxt: 1.4.2
   vue-i18n: 8.1.0
   vuex: 3.0.1
@@ -107,12 +107,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-xVigHnglIEa576eqZCYW3IclwKU=
-  /@nuxtjs/google-analytics/2.0.2:
-    dependencies:
-      vue-analytics: 5.16.0
-    dev: false
-    resolution:
-      integrity: sha512-NpDQI7w4jr93Ukh98n3d0BRDHhX7cDUi3W2E0CAU6t5wmC+Q6cwQMqcEl32tGJBQlPZYWSrBKIM0A413HpL3TA==
   /@nuxtjs/proxy/1.2.4:
     dependencies:
       consola: 1.4.3
@@ -3855,6 +3849,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
+  /lodash.some/4.6.0:
+    dev: false
+    resolution:
+      integrity: sha1-G7nzFO9ri63tE7VJFpsqlF62jk0=
   /lodash.template/4.4.0:
     dependencies:
       lodash._reinterpolate: 3.0.0
@@ -6788,10 +6786,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-XX6kW7755Kb/ZflUOOCofDV9WnM=
-  /vue-analytics/5.16.0:
-    dev: false
-    resolution:
-      integrity: sha512-WOdI1Ot/Tq3xHIIu3a5hiLawMrQeHsgqwcvHdZb5CNV4IM3RWZ3rw1gCnsAGbSWGPQw88mjkY9wuG5CXmfsssA==
   /vue-eslint-parser/2.0.3:
     dependencies:
       debug: 3.2.5
@@ -7160,13 +7154,13 @@ shrinkwrapVersion: 3
 specifiers:
   '@nuxtjs/axios': ^5.0.0
   '@nuxtjs/bulma': ^1.0.3
-  '@nuxtjs/google-analytics': ^2.0.2
   babel-eslint: ^8.2.1
   cross-env: ^5.0.1
   eslint: ^4.15.0
   eslint-loader: ^2.0.0
   eslint-plugin-vue: ^4.0.0
   express: ^4.15.3
+  lodash.some: ^4.6.0
   nodemon: ^1.11.0
   nuxt: ^1.0.0
   vue-i18n: ^8.1.0

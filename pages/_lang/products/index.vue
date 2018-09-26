@@ -3,8 +3,24 @@
     <Layout>
       <h2 slot="header" class="has-text-white">{{$t('links.electronic_products')}}</h2>
       <div slot="content">
+        <div class="columns">
+          <div class="column">
+            <div class="field">
+              <div :class="[
+                'control',
+                { 'has-icons-right': !searching },
+                { 'is-loading': searching }
+              ]">
+                <input class="input" v-model="keywords" type="text" :placeholder="$t('all.search')">
+                <span v-if="!searching" class="icon is-small is-right">
+                  <i class="fa fa-search"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="columns is-multiline">
-          <div class="column is-one-third" v-for="(item, index) in products" :key="index">
+          <div class="column is-one-third" v-for="(item, index) in filteredProducts" :key="index">
             <product-card :item="item"></product-card>
           </div>
         </div>
@@ -16,6 +32,7 @@
 <script>
 import Layout from '~/components/PageLayout'
 import productCard from '~/components/productCard'
+import some from 'lodash.some'
 export default {
   components: {
     Layout,
@@ -23,8 +40,11 @@ export default {
   },
   data() {
     return {
-      products: {
-        rasp_v2: {
+      loading: false,
+      searching: false,
+      keywords: '',
+      products: [
+        {
           url: 'rasp_v2',
           image: require('~/assets/images/products/rasp_v2.png'),
           title_fr: 'Raspberry PI v2',
@@ -34,7 +54,7 @@ export default {
           price: 76,
           type: 'raspberry'
         },
-        rasp_v3: {
+        {
           url: 'rasp_v3',
           image: require('~/assets/images/products/rasp_v3.png'),
           title_fr: 'Raspberry PI v3',
@@ -44,7 +64,7 @@ export default {
           price: 87,
           type: 'raspberry'
         },
-        uno_mega: {
+        {
           url: 'uno_mega',
           image: require('~/assets/images/products/uno_mega.jpg'),
           title_fr: 'Arduino Uno v3 MEGA328P',
@@ -54,7 +74,7 @@ export default {
           price: 30,
           type: 'arduino'
         },
-        uno_atmega: {
+        {
           url: 'uno_atmega',
           image: require('~/assets/images/products/uno_atmega.png'),
           title_fr: 'Arduino Uno v3 ATmega328P',
@@ -64,7 +84,7 @@ export default {
           price: 40,
           type: 'arduino'
         },
-        nodemcu_esp8266: {
+        {
           url: 'nodemcu_esp8266',
           image: require('~/assets/images/products/nodemcu_esp8266.png'),
           title_fr: 'NodeMCU ESP8266 (Wifi)',
@@ -74,9 +94,9 @@ export default {
           price: 22,
           type: 'esp'
         },
-        relay_5v_1: {
+        {
           url: 'relay_5v_1',
-          image: require('~/assets/images/products/relay_5v_1.jpg'),
+          image: require('~/assets/images/products/relay_5v_1.png'),
           title_fr: 'Relay 5v, 1 canal',
           title_en: 'Relay 5v, 1 channel',
           desc_fr: '',
@@ -84,9 +104,9 @@ export default {
           price: 7,
           type: 'relay'
         },
-        relay_5v_2: {
+        {
           url: 'relay_5v_2',
-          image: require('~/assets/images/products/relay_5v_2.jpg'),
+          image: require('~/assets/images/products/relay_5v_2.png'),
           title_fr: 'Relay 5v, 2 canal',
           title_en: 'Relay 5v, 2 channel',
           desc_fr: '',
@@ -94,7 +114,7 @@ export default {
           price: 14,
           type: 'relay'
         },
-        relay_5v_4: {
+        {
           url: 'relay_5v_4',
           image: require('~/assets/images/products/relay_5v_4.jpg'),
           title_fr: 'Relay 5v, 4 canal',
@@ -104,7 +124,7 @@ export default {
           price: 20,
           type: 'relay'
         },
-        breadboard_400x350: {
+        {
           url: 'breadboard_400x350',
           image: require('~/assets/images/products/breadboard_400x350.png'),
           title_fr: 'Breadboard 400x350',
@@ -114,7 +134,7 @@ export default {
           price: 10,
           type: 'breadboard'
         },
-        breadboard_830: {
+        {
           url: 'breadboard_830',
           image: require('~/assets/images/products/breadboard_830.png'),
           title_fr: 'Breadboard 830',
@@ -124,7 +144,7 @@ export default {
           price: 18.5,
           type: 'breadboard'
         },
-        pcb_coper_s1: {
+        {
           url: 'pcb_coper_s1',
           image: require('~/assets/images/products/pcb_coper_s1.jpg'),
           title_fr: 'Plaque à simple face en cuivre',
@@ -134,7 +154,7 @@ export default {
           price: 6.5,
           type: 'pcb'
         },
-        ultrasonic: {
+        {
           url: 'ultrasonic',
           image: require('~/assets/images/products/ultrasonic.jpeg'),
           title_fr: 'Capteur à ultrasons',
@@ -144,7 +164,7 @@ export default {
           price: 10.5,
           type: 'sensor'
         },
-        moisture_sensor: {
+        {
           url: 'moisture_sensor',
           image: require('~/assets/images/products/moisture_sensor.jpeg'),
           title_fr: "Capteur d'humidité du sol",
@@ -154,7 +174,7 @@ export default {
           price: 11,
           type: 'sensor'
         },
-        pir_motion_sensor: {
+        {
           url: 'pir_motion_sensor',
           image: require('~/assets/images/products/pir_motion_sensor.jpg'),
           title_fr: "Capteur de mouvement",
@@ -164,7 +184,7 @@ export default {
           price: 9,
           type: 'sensor'
         },
-        liquid_pump_12v_4l: {
+        {
           url: 'liquid_pump_12v_4l',
           image: require('~/assets/images/products/liquid_pump_12v_4l.jpg'),
           title_fr: "Pompe à eau",
@@ -174,7 +194,7 @@ export default {
           price: 40,
           type: 'pump'
         },
-        mini_gprs_gms_sim800l: {
+        {
           url: 'mini_gprs_gms_sim800l',
           image: require('~/assets/images/products/mini_gprs_gms_sim800l.jpg'),
           title_fr: "GPRS GSM SIM800L",
@@ -184,7 +204,7 @@ export default {
           price: 43,
           type: 'gsm'
         },
-        servo_motor_sg90: {
+        {
           url: 'servo_motor_sg90',
           image: require('~/assets/images/products/servo_motor_sg90.jpg'),
           title_fr: "Mini Tower Pro Servo Motor SG90",
@@ -194,7 +214,7 @@ export default {
           price: 12,
           type: 'servo_motor'
         },
-        servo_motor_mg995: {
+        {
           url: 'servo_motor_mg995',
           image: require('~/assets/images/products/servo_motor_mg995.jpg'),
           title_fr: "Tower Pro Servo Motor MG995",
@@ -204,7 +224,7 @@ export default {
           price: 16,
           type: 'servo_motor'
         },
-        motor_driver_L293D_control_shield: {
+        {
           url: 'motor_driver_L293D_control_shield',
           image: require('~/assets/images/products/motor_driver_L293D_control_shield.jpg'),
           title_fr: "L293D Carte d'extension de moteur L293D POUR blindage de moteur Arduino",
@@ -214,7 +234,7 @@ export default {
           price: 18,
           type: 'motor_controller'
         },
-        motor_driver_L9110S_control_shield: {
+        {
           url: 'motor_driver_L9110S_control_shield',
           image: require('~/assets/images/products/motor_driver_L9110S_control_shield.jpg'),
           title_fr: "L9110S Contrôleur de pilote de moteur pas à pas à double courant continu de moteur pas à pas de pont en H",
@@ -224,7 +244,7 @@ export default {
           price: 7,
           type: 'motor_controller'
         },
-        ir_remote_receiver: {
+        {
           url: 'ir_remote_receiver',
           image: require('~/assets/images/products/ir_remote_receiver.jpg'),
           title_fr: "Télécommande IR et récepteur",
@@ -234,17 +254,17 @@ export default {
           price: 11,
           type: 'infrared'
         },
-        rfid_sensor_MFRC522: {
+        {
           url: 'rfid_sensor_MFRC522',
           image: require('~/assets/images/products/rfid_sensor_MFRC522.jpg'),
-          title_fr: "Capteur RFID",
-          title_en: 'RFID Sensor',
+          title_fr: "Capteur RFID et un ID",
+          title_en: 'RFID Sensor with one tag',
           desc_fr: '',
           desc_en: '',
-          price: 27,
+          price: 22,
           type: 'sensor'
         },
-        rfid_tag_RC522_13_56Mhz: {
+        {
           url: 'rfid_tag_RC522_13_56Mhz',
           image: require('~/assets/images/products/rfid_tag_RC522_13_56Mhz.jpg'),
           title_fr: "Tag RFID",
@@ -253,8 +273,32 @@ export default {
           desc_en: '',
           price: 4,
           type: 'tag'
+        },
+        {
+          url: 'lcd_16x2_i2c',
+          image: require('~/assets/images/products/lcd_16x2_i2c.png'),
+          title_fr: "LCD 16x2 (i2c)",
+          title_en: 'LCD 16x2 (i2c)',
+          desc_fr: '',
+          desc_en: '',
+          price: 21,
+          type: 'lcd'
         }
+      ]
+    }
+  },
+  computed: {
+    filteredProducts() {
+      let keywords = this.keywords
+      if (keywords.length > 0) {
+        keywords = (keywords.split(/\s+/) || []).map(val => val.toLowerCase())
+        return this.products.filter(val => {
+          return some(keywords, (v => {
+            return val.title_fr.toLowerCase().match(v) || val.title_en.toLowerCase().match(v)
+          }))
+        })
       }
+      return this.products
     }
   }
 }
