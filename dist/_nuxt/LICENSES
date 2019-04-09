@@ -1,7 +1,13 @@
 /*!
- * Vue.js v2.5.17
+ * Vue.js v2.5.21
  * (c) 2014-2018 Evan You
  * Released under the MIT License.
+ */
+
+/**
+ * vuex v3.0.1
+ * (c) 2017 Evan You
+ * @license MIT
  */
 
 /*!
@@ -9,6 +15,12 @@
  *
  * @author   Feross Aboukhadijeh <https://feross.org>
  * @license  MIT
+ */
+
+/*!
+ * vue-i18n v8.5.0 
+ * (c) 2018 kazuya kawaguchi
+ * Released under the MIT License.
  */
 
 /*!
@@ -20,25 +32,13 @@
  */
 
 /**
- * vue-meta v1.5.3
+ * vue-meta v1.5.8
  * (c) 2018 Declan de Wet & Sébastien Chopin (@Atinux)
  * @license MIT
  */
 
 /*
-object-assign
-(c) Sindre Sorhus
-@license MIT
-*/
-
-/*!
- * vue-i18n v8.1.0 
- * (c) 2018 kazuya kawaguchi
- * Released under the MIT License.
- */
-
-/**
- * vuex v3.0.1
- * (c) 2017 Evan You
- * @license MIT
- */
+	object-assign
+	(c) Sindre Sorhus
+	@license MIT
+	*/
