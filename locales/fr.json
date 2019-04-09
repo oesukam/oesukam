@@ -48,10 +48,12 @@
     },
     "personal_projects": "Projets Personnels",
     "projects": {
-      "lingala": "Android mobile application for teaching basic Lingala",
-      "exetat": "An educational android application that helps high school finalists prepare for their final exams by providing some helpful syllabus and past papers",
-      "wikilangue": "A wiki website that provides a platform where users can be able to add and edit different languages",
-      "xlszipsave": "An open source javascript json transformer to create, save and zip excel document file type"
+      "lingala": "Application mobile Android pour l'enseignement du lingala de base",
+      "exetat": "Une application Android éducative qui aide les finalistes du lycée à se préparer à leurs examens finaux en fournissant un programme utile et des documents antérieurs",
+      "wikilangue": "Un site Web wiki qui fournit une plate-forme sur laquelle les utilisateurs peuvent ajouter et modifier différentes langues.",
+      "xlszipsave": "Un transformateur javascript json open source pour créer, enregistrer et compresser le type de fichier document Excel",
+      "cheke": "Un validateur javascript open source pour ExpressJS",
+      "bible_desktop": "Une application de bureau"
     },
     "awards": "Prix",
     "my_skills": "Compétences",
@@ -95,6 +97,8 @@
     "residence": "Résidence",
     "uganda": "Ouganda",
     "china": "Chine",
-    "to_present": "A PRESENT"
+    "to_present": "A PRESENT",
+    "software_developer": "Développeur de logiciels",
+    "software_engineer": "Ingénieur logiciel"
   }
 }

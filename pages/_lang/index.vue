@@ -4,16 +4,16 @@
       <div slot="header" class="is-white">
         <div class="columns">
           <div class="column is-one-third">
-            <img src="~/assets/images/olivier.png" class="profile" />
+            <img src="~/assets/images/my_profile.jpg" class="profile" />
           </div>
           <div class="column is-two-third is-items-center is-content-center">
             <div class="intro-details">
               <h2 class="title is-2 is-white">Olivier ESUKA MUSELEMU</h2>
               <div class="social-links">
-                <a href="https://www.linkedin.com/in/olivier-esuka-65763983/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.twitter.com/oesukam/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
                 <!-- <a href="#" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a> -->
                 <a href="https://github.com/oesukam" target="_blank" title="Github"><i class="fa fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/olivier-esuka-65763983/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/oesukam/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -26,13 +26,13 @@
             <h2 class="title is-2">{{$t('home.about_me')}}</h2>
             <p>{{$t('home.introduction')}}</p>
             <br>
-            <a
+            <!-- <a
               :href="$t('lang') === 'en' ? resume_en : resume_fr"
               target="_blank"
               class="button btn-secondary"
             >
               {{$t('all.download_cv')}}
-            </a>
+            </a> -->
           </div>
           <div class="column">
             <table class="home-table">
