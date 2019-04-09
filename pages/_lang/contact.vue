@@ -20,14 +20,14 @@
                     <i class="fa fa-envelope"></i>
                   </div>
                 </td>
-                <td>contact@oesukam.me</td>
+                <td>oesukam@gmail.com</td>
               </tr><tr>
                 <td>
                   <div class="contact-icon">
                     <i class="fa fa-phone"></i>
                   </div>
                 </td>
-                <td>+243972734435</td>
+                <td>+250783200211</td>
               </tr>
             </table>
           </div>

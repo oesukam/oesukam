@@ -61,6 +61,11 @@
             <h3 class="title is-3">{{$t('resume.professional_experience')}}</h3>
             <div class="timeline">
               <div class="timeline-item">
+                <h4 class="item-title">{{$t('all.software_developer')}}</h4>
+                <span class="item-period">2019/07 – {{$t('all.to_present')}}</span>
+                <span class="item-small">Andela Kigali LTD, Rwanda}}</span>
+              </div>
+              <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.hannation')}}</h4>
                 <span class="item-period">2017/01 – 2018/03</span>
                 <span class="item-small">Hannation Technology, {{$t('all.china')}}</span>
@@ -121,6 +126,18 @@
           <div class="column is-half">
             <h3 class="title is-3">{{$t('resume.personal_projects')}}</h3>
             <div class="timeline">
+              <div class="timeline-item">
+                <h4 class="item-title">Bible Desktop App</h4>
+                <span class="item-period">2019 - {{$t('all.to_present')}}</span>
+                <span class="item-small"><a href="https://sourceforge.net/projects/bible-desktop/" target="_blank">Download - sourceforce</a></span>
+                <p>{{$t('resume.projects.bible_desktop')}}</p>
+              </div>
+              <div class="timeline-item">
+                <h4 class="item-title">Cheke</h4>
+                <span class="item-period">2019 - {{$t('all.to_present')}}</span>
+                <span class="item-small"><a href="https://www.npmjs.com/package/cheke" target="_blank">cheke - npm</a></span>
+                <p>{{$t('resume.projects.cheke')}}</p>
+              </div>
               <div class="timeline-item">
                 <h4 class="item-title">Apprendre|Learn Lingala</h4>
                 <span class="item-period">2015 - {{$t('all.to_present')}}</span>

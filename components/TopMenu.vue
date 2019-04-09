@@ -3,9 +3,8 @@
     <nav id="top-menu" class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand is-items-center">
         <a id="top-names" href="/">
-          <h1 class="site-title">Olivier<span>ESUKA</span></h1>
+          <h1 class="site-title">Olivier<span>ESUKA MUSELEMU</span></h1>
         </a>
-
         <a @click.prevent="menu = !menu" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -20,12 +19,12 @@
           <div class="navbar-item">
             <nuxt-link :to="$i18n.path('resume')">{{$t('links.resume')}}</nuxt-link>
           </div>
-          <div class="navbar-item">
+          <!-- <div class="navbar-item">
             <nuxt-link :to="$i18n.path('teaching')">{{$t('links.teaching')}}</nuxt-link>
           </div>
           <div class="navbar-item">
             <nuxt-link :to="$i18n.path('products')">{{$t('links.electronic_products')}}</nuxt-link>
-          </div>
+          </div> -->
           <div class="navbar-item">
             <nuxt-link :to="$i18n.path('contact')">{{$t('links.contact')}}</nuxt-link>
           </div>
@@ -49,8 +48,6 @@
               {{ $t('links.french') }}
             </nuxt-link>
           </div>
-
-
         </div>
       </div>
     </nav>

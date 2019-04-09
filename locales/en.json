@@ -51,7 +51,9 @@
       "lingala": "Android mobile application for teaching basic Lingala",
       "exetat": "An educational android application that helps high school finalists prepare for their final exams by providing some helpful syllabus and past papers",
       "wikilangue": "A wiki website that provides a platform where users can be able to add and edit different languages",
-      "xlszipsave": "An open source javascript json transformer to create, save and zip excel document file type"
+      "xlszipsave": "An open source javascript json transformer to create, save and zip excel document file type",
+      "cheke": "An open source javascript validator for ExpressJS",
+      "bible_desktop": "A Bible Desktop Application"
     },
     "awards": "Prix",
     "my_skills": "Skills",
@@ -95,6 +97,8 @@
     "residence": "Residence",
     "uganda": "Uganda",
     "china": "China",
-    "to_present": "TO PRESENT"
+    "to_present": "TO PRESENT",
+    "software_developer": "Software Developer",
+    "software_engineer": "Software Engineer"
   }
 }
