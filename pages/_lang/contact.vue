@@ -12,7 +12,7 @@
                     <i class="fa fa-map-marker"></i>
                   </div>
                 </td>
-                <td>{{$t('all.drc')}}</td>
+                <td>Rwanda</td>
               </tr>
               <tr>
                 <td>
