@@ -24,7 +24,7 @@
         <div class="columns">
           <div class="column">
             <h2 class="title is-2">{{$t('home.about_me')}}</h2>
-            <p>{{$t('home.introduction')}}</p>
+            <p v-html="$t('home.introduction')"></p>
             <br>
             <!-- <a
               :href="$t('lang') === 'en' ? resume_en : resume_fr"
@@ -44,7 +44,7 @@
               <tr>
                 <td class="has-text-weight-semibold">{{$t('all.email')}}</td>
                 <td class="px-10">:</td>
-                <td>contact@oesukam.me</td>
+                <td>oesukam@gmail.com</td>
               </tr>
             </table>
           </div>
