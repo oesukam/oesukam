@@ -39,7 +39,7 @@
               <tr>
                 <td class="has-text-weight-semibold">{{$t('all.residence')}}</td>
                 <td class="px-10">:</td>
-                <td>{{$t('all.drc')}}</td>
+                <td>Rwanda</td>
               </tr>
               <tr>
                 <td class="has-text-weight-semibold">{{$t('all.email')}}</td>
