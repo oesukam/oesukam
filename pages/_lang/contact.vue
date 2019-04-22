@@ -27,7 +27,7 @@
                     <i class="fa fa-phone"></i>
                   </div>
                 </td>
-                <td>+250783200211</td>
+                <td>+250-783-200-211</td>
               </tr>
             </table>
           </div>
