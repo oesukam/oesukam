@@ -14,7 +14,7 @@
   "home": {
     "title": "Welcome",
     "about_me": "About me",
-    "introduction": "A full-stack developer. I enjoy solving problems and building things. I have worked with small to medium size companies and NGOs where I was able to add values to the organization through my expertise and skills. <br><br> Being passionate about technologies, I always want to learn new skills and work on projects that require me to reach outside of my comfort zone and knowledge. <br><br> When I am not working, I enjoy watching movies, listenning to music and helping people with technology challenges."
+    "introduction": "A full-stack developer who enjoys solving problems and building products. I have worked with small to medium size companies and NGOs where I was able to add values to the organization through my expertise and skills. <br><br> Being passionate about technologies, I always want to learn new skills and work on projects that require me to reach outside of my comfort zone and knowledge. <br><br> When I am not working, I enjoy watching movies, listenning to music and helping people with technology challenges."
   },
   "about": {
     "title": "About",
@@ -46,7 +46,7 @@
       "monaco_institute": "Network Technician Intern",
       "ict_center": "Network Technician Intern"
     },
-    "personal_projects": "Projets Personnels",
+    "personal_projects": "Personal Projects",
     "projects": {
       "lingala": "Android mobile application for teaching basic Lingala",
       "exetat": "An educational android application that helps high school finalists prepare for their final exams by providing some helpful syllabus and past papers",
