@@ -91,7 +91,7 @@
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.ict_center')}}</h4>
-                <span class="item-period">2012/04 – 20128/07</span>
+                <span class="item-period">2012/04 – 2018/07</span>
                 <span class="item-small">ICTCenter Training center, {{$t('all.uganda')}}</span>
               </div>
             </div>
