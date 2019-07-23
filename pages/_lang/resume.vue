@@ -24,9 +24,13 @@
             <h3 class="title is-3">Publications</h3>
             <div class="timeline">
               <div class="timeline-item">
-                <h4 class="item-title">Blockchain Technology in Pharmaceutical Industry to Prevent Counterfeit Drugs</h4>
+                <h4
+                  class="item-title"
+                >Blockchain Technology in Pharmaceutical Industry to Prevent Counterfeit Drugs</h4>
                 <span class="item-period">2018/03</span>
-                <span class="item-small">International Journal of Computer Applications (0975 – 8887) Volume 180 – No.25, {{$t('all.usa')}}</span>
+                <span
+                  class="item-small"
+                >International Journal of Computer Applications (0975 – 8887) Volume 180 – No.25, {{$t('all.usa')}}</span>
               </div>
             </div>
             <div class="fw-divider-space"></div>
@@ -63,7 +67,12 @@
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('all.software_developer')}}</h4>
                 <span class="item-period">2019/07 – {{$t('all.to_present')}}</span>
-                <span class="item-small">Andela Kigali LTD, Rwanda}}</span>
+                <span class="item-small">Cellfam, Kenya</span>
+              </div>
+              <div class="timeline-item">
+                <h4 class="item-title">{{$t('all.software_developer')}}</h4>
+                <span class="item-period">2019/07 – {{$t('all.to_present')}}</span>
+                <span class="item-small">Andela Kigali LTD, Rwanda</span>
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.hannation')}}</h4>
@@ -77,12 +86,12 @@
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.ccfc')}}</h4>
-                <span class="item-period">2017/06 – {{$t('all.to_present')}}</span>
+                <span class="item-period">2017/06 – 2018/01</span>
                 <span class="item-small">CCFC, {{$t('all.china')}}</span>
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.ades')}}</h4>
-                <span class="item-period">2016/01 – 2016/02</span>
+                <span class="item-period">2016/01 – 2018/02</span>
                 <span class="item-small">CARITAS Kisangani, {{$t('all.drc')}}</span>
               </div>
               <div class="timeline-item">
@@ -113,11 +122,13 @@
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.monaco_institute')}}</h4>
                 <span class="item-period">2014/04 – 2014/07</span>
-                <span class="item-small">Monaco Institute of Business and Computer Science, {{$t('all.uganda')}}</span>
+                <span
+                  class="item-small"
+                >Monaco Institute of Business and Computer Science, {{$t('all.uganda')}}</span>
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.ict_center')}}</h4>
-                <span class="item-period">2012/04 – 20128/07</span>
+                <span class="item-period">2012/04 – 2018/07</span>
                 <span class="item-small">ICTCenter Training center, {{$t('all.uganda')}}</span>
               </div>
             </div>
@@ -129,13 +140,20 @@
               <div class="timeline-item">
                 <h4 class="item-title">Bible Desktop App</h4>
                 <span class="item-period">2019 - {{$t('all.to_present')}}</span>
-                <span class="item-small"><a href="https://sourceforge.net/projects/bible-desktop/" target="_blank">Download - sourceforce</a></span>
+                <span class="item-small">
+                  <a
+                    href="https://sourceforge.net/projects/bible-desktop/"
+                    target="_blank"
+                  >Download - sourceforce</a>
+                </span>
                 <p>{{$t('resume.projects.bible_desktop')}}</p>
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">Cheke</h4>
                 <span class="item-period">2019 - {{$t('all.to_present')}}</span>
-                <span class="item-small"><a href="https://www.npmjs.com/package/cheke" target="_blank">cheke - npm</a></span>
+                <span class="item-small">
+                  <a href="https://www.npmjs.com/package/cheke" target="_blank">cheke - npm</a>
+                </span>
                 <p>{{$t('resume.projects.cheke')}}</p>
               </div>
               <div class="timeline-item">
@@ -153,13 +171,20 @@
               <div class="timeline-item">
                 <h4 class="item-title">Wikilangue</h4>
                 <span class="item-period">2017 - {{$t('all.to_present')}}</span>
-                <span class="item-small"><a href="www.wikilangue.org" target="_blank">www.wikilangue.org</a></span>
+                <span class="item-small">
+                  <a href="www.wikilangue.org" target="_blank">www.wikilangue.org</a>
+                </span>
                 <p>{{$t('resume.projects.wikilangue')}}</p>
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">xlszipsave</h4>
                 <span class="item-period">2017 - {{$t('all.to_present')}}</span>
-                <span class="item-small"><a href="https://www.npmjs.com/package/xlszipsave" target="_blank">xlszipsave - npm</a></span>
+                <span class="item-small">
+                  <a
+                    href="https://www.npmjs.com/package/xlszipsave"
+                    target="_blank"
+                  >xlszipsave - npm</a>
+                </span>
                 <p>{{$t('resume.projects.xlszipsave')}}</p>
               </div>
             </div>
@@ -335,12 +360,12 @@
 </template>
 
 <script>
-import Layout from '~/components/PageLayout'
+import Layout from "~/components/PageLayout";
 export default {
   components: {
     Layout
   }
-}
+};
 </script>
 
 <style>
@@ -354,20 +379,20 @@ export default {
   margin-left: 20px;
   margin-bottom: 20px;
   background-color: #fff;
-  border-left: 2px solid #2196F3;
-  box-shadow: 0 0 3px 0 rgba(0,0,0,.2)
+  border-left: 2px solid #2196f3;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 .timeline-item:hover {
-  box-shadow: 0 0 8px 0 rgba(0,0,0,.2)
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .timeline-item:last-child {
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 
 .timeline-item:before {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   background-color: #fff;
@@ -376,36 +401,36 @@ export default {
   height: 12px;
   top: 20px;
   left: -29px;
-  border: 2px solid #2196F3;
-  z-index: 2
+  border: 2px solid #2196f3;
+  z-index: 2;
 }
 
 .timeline-item:after {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
-  background-color: #2196F3;
+  background-color: #2196f3;
   border-radius: 10px;
   width: 29px;
   height: 2px;
   top: 25px;
   left: -29px;
-  z-index: 1
+  z-index: 1;
 }
 
 .timeline-item .item-title {
   display: block;
   margin: 0;
   font-size: 16px;
-  line-height: 1.2em
+  line-height: 1.2em;
 }
 
 .timeline-item .item-period {
   display: inline-block;
   font-size: 12px;
   line-height: 1.2em;
-  color: #2196F3;
-  margin-bottom: 8px
+  color: #2196f3;
+  margin-bottom: 8px;
 }
 
 .timeline-item .item-small {
@@ -416,7 +441,7 @@ export default {
   margin-left: 5px;
   margin-bottom: 8px;
   padding-left: 8px;
-  border-left: 1px solid #e0e0e0
+  border-left: 1px solid #e0e0e0;
 }
 
 .timeline-item .item-logo {
@@ -439,7 +464,7 @@ export default {
 }
 
 .skills-info h4 {
-  font-size: .8em;
+  font-size: 0.8em;
   line-height: 1.1em;
   position: relative;
   margin: 0 0 5px;
@@ -453,13 +478,13 @@ export default {
   box-sizing: border-box;
   height: 12px;
   margin-bottom: 12px;
-  width: 100%
+  width: 100%;
 }
 
 .skill-percentage {
-  background-color: #2196F3;
+  background-color: #2196f3;
   height: 10px;
-  padding: 0
+  padding: 0;
 }
 
 .skill-percentage {
@@ -467,7 +492,7 @@ export default {
   -moz-transition: all 2s ease-in-out;
   -o-transition: all 2s ease-in-out;
   -ms-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out
+  transition: all 2s ease-in-out;
 }
 
 .fw-divider-space {
