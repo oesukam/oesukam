@@ -14,11 +14,11 @@
   "home": {
     "title": "Bienvenue",
     "about_me": "À propos de moi",
-    "introduction": "Posséde une maîtrise en génie logiciel et une licence en génie informatique. Actuellement travaillant comme consultant, assistant et entrepreneur dans les secteurs de l'informatique."
+    "introduction": "Un développeur full-stack qui aime résoudre des problèmes et construire des produits. J'ai eu à collaborer avec de petites et moyennes entreprises et des ONG où j'ai a pu enrichir l’organisation grâce à mon expertise et compétences. Passionné par la technologie, je souhaite toujours acquérir de nouvelles compétences et travailler sur des projets qui l’obligent à aller au-delà de ma zone de confort et connaissances. <br> Quand je ne travaille pas, j'aime regarder des films, écouter de la musique et aider des amis à resoudre problemes informatique."
   },
   "about": {
     "title": "À propos",
-    "introduction": ""
+    "introduction": "Un développeur full-stack. Il aime résoudre des problèmes et construire des choses. J'ai eu à collaborer avec de petites et moyennes entreprises et des ONG où j'ai a pu enrichir l’organisation grâce à mon expertise et compétences. Passionné par la technologie, je souhaite toujours acquérir de nouvelles compétences et travailler sur des projets qui l’obligent à aller au-delà de ma zone de confort et connaissances. <br> Quand je ne travaille pas, j'aime regarder des films, écouter de la musique et aider des amis à resoudre problemes informatique."
   },
   "resume": {
     "title": "Resume",
@@ -42,7 +42,7 @@
       "ades": "Développeur Web Seigneur",
       "sudan_school": "Développeur Web Seigneur",
       "maranatha": "Développeur Web Seigneur",
-      "jerm": "Ingénieur en informaticien - stagiaire",
+      "jerm": "Ingénieur informaticien - stagiaire",
       "monaco_institute": "Technicien réseau - stagiaire",
       "ict_center": "Technicien IT - stagiaire"
     },
