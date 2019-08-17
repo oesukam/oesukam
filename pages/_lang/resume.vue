@@ -40,13 +40,18 @@
             <div class="timeline">
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('all.software_developer')}}</h4>
-                <span class="item-period">2019/07 – {{$t('all.to_present')}}</span>
+                <span class="item-period">2019/04 – 2019/07</span>
                 <span class="item-small">Cellfam, Kenya</span>
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('all.software_developer')}}</h4>
                 <span class="item-period">2019/07 – {{$t('all.to_present')}}</span>
                 <span class="item-small">Andela Kigali LTD, Rwanda</span>
+              </div>
+              <div class="timeline-item">
+                <h4 class="item-title">{{$t('all.software_developer')}}</h4>
+                <span class="item-period">2018/10 – 2018/11</span>
+                <span class="item-small">MSO Trading Sarl, {{$t('all.drc')}}</span>
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.hannation')}}</h4>
