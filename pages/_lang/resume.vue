@@ -36,32 +36,6 @@
             <div class="fw-divider-space"></div>
           </div>
           <div class="column is-half">
-            <h3 class="title is-3">{{$t('resume.professional_training')}}</h3>
-            <div class="timeline">
-              <div class="timeline-item">
-                <h4 class="item-title">{{$t('resume.training.chinese')}}</h4>
-                <span class="item-period">2016/03 – 2016/06</span>
-                <span class="item-small">Wuhan Univsersity, {{$t('all.china')}}</span>
-              </div>
-              <div class="timeline-item">
-                <h4 class="item-title">{{$t('resume.training.ccna')}}</h4>
-                <span class="item-period">2013/08 – 2013/12</span>
-                <span class="item-small">Monaco Institute, {{$t('all.uganda')}}</span>
-              </div>
-              <div class="timeline-item">
-                <h4 class="item-title">{{$t('resume.training.android')}}</h4>
-                <span class="item-period">2013/07 – 2013/08</span>
-                <span class="item-small">Zalego Institute, {{$t('all.uganda')}}</span>
-              </div>
-              <div class="timeline-item">
-                <h4 class="item-title">{{$t('resume.training.administration')}}</h4>
-                <span class="item-period">2013/04 – 2013/08</span>
-                <span class="item-small">ICTCenter trainining center, {{$t('all.uganda')}}</span>
-              </div>
-            </div>
-            <div class="fw-divider-space"></div>
-          </div>
-          <div class="column is-half">
             <h3 class="title is-3">{{$t('resume.professional_experience')}}</h3>
             <div class="timeline">
               <div class="timeline-item">
@@ -76,13 +50,18 @@
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('all.software_developer')}}</h4>
-                <span class="item-period">2019/07 – 2019/09</span>
+                <span class="item-period">2019/04 – 2019/07</span>
                 <span class="item-small">Cellfam, Kenya</span>
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('all.software_developer')}}</h4>
                 <span class="item-period">2019/07 – {{$t('all.to_present')}}</span>
                 <span class="item-small">Andela Kigali LTD, Rwanda</span>
+              </div>
+              <div class="timeline-item">
+                <h4 class="item-title">{{$t('all.software_developer')}}</h4>
+                <span class="item-period">2018/10 – 2018/11</span>
+                <span class="item-small">MSO Trading Sarl, {{$t('all.drc')}}</span>
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{$t('resume.professional.hannation')}}</h4>
@@ -200,6 +179,32 @@
             </div>
             <div class="fw-divider-space"></div>
           </div>
+          <div class="column is-half">
+            <h3 class="title is-3">{{$t('resume.professional_training')}}</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <h4 class="item-title">{{$t('resume.training.chinese')}}</h4>
+                <span class="item-period">2016/03 – 2016/06</span>
+                <span class="item-small">Wuhan Univsersity, {{$t('all.china')}}</span>
+              </div>
+              <div class="timeline-item">
+                <h4 class="item-title">{{$t('resume.training.ccna')}}</h4>
+                <span class="item-period">2013/08 – 2013/12</span>
+                <span class="item-small">Monaco Institute, {{$t('all.uganda')}}</span>
+              </div>
+              <div class="timeline-item">
+                <h4 class="item-title">{{$t('resume.training.android')}}</h4>
+                <span class="item-period">2013/07 – 2013/08</span>
+                <span class="item-small">Zalego Institute, {{$t('all.uganda')}}</span>
+              </div>
+              <div class="timeline-item">
+                <h4 class="item-title">{{$t('resume.training.administration')}}</h4>
+                <span class="item-period">2013/04 – 2013/08</span>
+                <span class="item-small">ICTCenter trainining center, {{$t('all.uganda')}}</span>
+              </div>
+            </div>
+            <div class="fw-divider-space"></div>
+          </div>
         </div>
         <h3 class="title is-3">{{$t('resume.my_skills')}}</h3>
         <div class="columns is-multiline">
@@ -232,20 +237,20 @@
               <h3 class="title is-3">{{$t('resume.skills.os')}}</h3>
             </div>
             <div class="skills-info">
-              <h4 class="title is-5">Windows XP, 7, 8.1, 10</h4>
-              <progress class="progress is-info" value="90" max="100">90%</progress>
+              <h4 class="title is-5">CentOS</h4>
+              <progress class="progress is-info" value="70" max="100">70%</progress>
 
               <h4 class="title is-5">Mac OS</h4>
               <progress class="progress is-info" value="90" max="100">90%</progress>
 
+              <h4 class="title is-5">RedHat / Fedora</h4>
+              <progress class="progress is-info" value="70" max="100">70%</progress>
+
               <h4 class="title is-5">Ubuntu</h4>
               <progress class="progress is-info" value="85" max="100">85%</progress>
 
-              <h4 class="title is-5">CentOS</h4>
-              <progress class="progress is-info" value="80" max="100">80%</progress>
-
-              <h4 class="title is-5">RedHat / Fedora</h4>
-              <progress class="progress is-info" value="70" max="100">70%</progress>
+              <h4 class="title is-5">Windows XP, 7, 8.1, 10</h4>
+              <progress class="progress is-info" value="90" max="100">90%</progress>
             </div>
             <div class="divider-space"></div>
           </div>
@@ -256,17 +261,19 @@
               <h3 class="title is-3">{{$t('resume.skills.design')}}</h3>
             </div>
             <div class="skills-info">
-              <h4 class="title is-5">Photoshop</h4>
-              <progress class="progress is-info" value="70" max="100">70%</progress>
+              <h4 class="title is-5">Autocad</h4>
+              <progress class="progress is-info" value="60" max="100">60%</progress>
 
               <h4 class="title is-5">Illustrator</h4>
-              <progress class="progress is-info" value="90" max="100">90%</progress>
+              <progress class="progress is-info" value="70" max="100">70%</progress>
+
+              <h4 class="title is-5">Photoshop</h4>
+              <progress class="progress is-info" value="80" max="100">80%</progress>
 
               <h4 class="title is-5">Sketch</h4>
               <progress class="progress is-info" value="70" max="100">70%</progress>
 
-              <h4 class="title is-5">Autocad</h4>
-              <progress class="progress is-info" value="80" max="100">80%</progress>
+
             </div>
             <div class="divider-space"></div>
           </div>
@@ -280,7 +287,13 @@
               <h4 class="title is-5">HTMl, CSS & JS</h4>
               <progress class="progress is-info" value="90" max="100">90%</progress>
 
+              <h4 class="title is-5">AngularJS</h4>
+              <progress class="progress is-info" value="60" max="100">60%</progress>
+
               <h4 class="title is-5">JQuery</h4>
+              <progress class="progress is-info" value="80" max="100">80%</progress>
+
+              <h4 class="title is-5">ReactJS</h4>
               <progress class="progress is-info" value="80" max="100">80%</progress>
 
               <h4 class="title is-5">UI: Bulma, Bootstrap, Element-UI & Tailwing</h4>
@@ -288,12 +301,6 @@
 
               <h4 class="title is-5">VueJS</h4>
               <progress class="progress is-info" value="90" max="100">90%</progress>
-
-              <h4 class="title is-5">ReactJS</h4>
-              <progress class="progress is-info" value="70" max="100">70%</progress>
-
-              <h4 class="title is-5">AngularJS</h4>
-              <progress class="progress is-info" value="60" max="100">60%</progress>
             </div>
             <div class="divider-space"></div>
           </div>
@@ -304,14 +311,14 @@
               <h3 class="title is-3">Backend</h3>
             </div>
             <div class="skills-info">
+              <h4 class="title is-5">Flask Python</h4>
+              <progress class="progress is-info" value="60" max="100">60%</progress>
+
               <h4 class="title is-5">Laravel PHP</h4>
               <progress class="progress is-info" value="90" max="100">90%</progress>
 
-              <h4 class="title is-5">NodeJS & MongoDB</h4>
+              <h4 class="title is-5">NodeJS</h4>
               <progress class="progress is-info" value="80" max="100">80%</progress>
-
-              <h4 class="title is-5">Flask Python</h4>
-              <progress class="progress is-info" value="60" max="100">60%</progress>
             </div>
             <div class="divider-space"></div>
           </div>
@@ -322,11 +329,11 @@
               <h3 class="title is-3">CMS</h3>
             </div>
             <div class="skills-info">
+              <h4 class="title is-5">Joomla</h4>
+              <progress class="progress is-info" value="70" max="100">70%</progress>
+
               <h4 class="title is-5">WordPress</h4>
               <progress class="progress is-info" value="90" max="100">90%</progress>
-
-              <h4 class="title is-5">Joomla</h4>
-              <progress class="progress is-info" value="80" max="100">80%</progress>
             </div>
             <div class="divider-space"></div>
           </div>
@@ -337,14 +344,6 @@
               <h3 class="title is-3">{{$t('resume.skills.programming')}}</h3>
             </div>
             <div class="skills-info">
-              <h4 class="title is-5">PHP</h4>
-              <progress class="progress is-info" value="90" max="100">90%</progress>
-
-              <h4 class="title is-5">NodeJS</h4>
-              <progress class="progress is-info" value="100" max="100">100%</progress>
-
-              <h4 class="title is-5">Lua</h4>
-              <progress class="progress is-info" value="70" max="100">70%</progress>
 
               <h4 class="title is-5">C</h4>
               <progress class="progress is-info" value="80" max="100">80%</progress>
@@ -352,13 +351,22 @@
               <h4 class="title is-5">C++</h4>
               <progress class="progress is-info" value="70" max="100">70%</progress>
 
-              <h4 class="title is-5">Python</h4>
-              <progress class="progress is-info" value="70" max="100">70%</progress>
-
               <h4 class="title is-5">C#</h4>
               <progress class="progress is-info" value="60" max="100">60%</progress>
 
               <h4 class="title is-5">Java</h4>
+              <progress class="progress is-info" value="70" max="100">70%</progress>
+
+              <h4 class="title is-5">NodeJS</h4>
+              <progress class="progress is-info" value="80" max="100">80%</progress>
+
+              <h4 class="title is-5">Lua</h4>
+              <progress class="progress is-info" value="70" max="100">70%</progress>
+
+              <h4 class="title is-5">PHP</h4>
+              <progress class="progress is-info" value="70" max="100">70%</progress>
+
+              <h4 class="title is-5">Python</h4>
               <progress class="progress is-info" value="70" max="100">70%</progress>
             </div>
             <div class="divider-space"></div>

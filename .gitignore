@@ -13,3 +13,4 @@ npm-debug.log
 shrinkwrap.yaml
 package-lock.json
 yarn.lock
+dist
