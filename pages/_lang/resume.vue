@@ -44,7 +44,7 @@
                 <span class="item-small">Omise Ltd, Thailand</span>
               </div>
               <div class="timeline-item">
-                <h4 class="item-title">{{$t('all.software_developer')}} - Consultant</h4>
+                <h4 class="item-title">{{$t('all.software_engineer')}} - Consultant</h4>
                 <span class="item-period">2019/10 – 2019/12</span>
                 <span class="item-small">Exuus, Rwanda</span>
               </div>
