@@ -28,14 +28,14 @@
           <div class="navbar-item">
             <nuxt-link :to="$i18n.path('contact')">{{$t('links.contact')}}</nuxt-link>
           </div>
-          <div v-if="$i18n.locale === 'fr'" class="navbar-item">
+          <div v-if="$i18n.locale === 'en'" class="navbar-item">
             <nuxt-link
-              :to="`/en` + $route.fullPath"
+              :to="`/fr` + $route.fullPath"
               class="Header__Link"
               active-class="none"
               exact
             >
-              {{ $t('links.english') }}
+              {{ $t('links.french') }}
             </nuxt-link>
           </div>
           <div  v-else class="navbar-item">
@@ -45,7 +45,7 @@
               active-class="none"
               exact
             >
-              {{ $t('links.french') }}
+              {{ $t('links.english') }}
             </nuxt-link>
           </div>
         </div>
