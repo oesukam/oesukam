@@ -11,4 +11,6 @@ npm-debug.log
 # dist
 .firebase
 shrinkwrap.yaml
+package-lock.json
+yarn.lock
 dist
