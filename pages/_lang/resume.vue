@@ -39,6 +39,16 @@
             <h3 class="title is-3">{{$t('resume.professional_experience')}}</h3>
             <div class="timeline">
               <div class="timeline-item">
+                <h4 class="item-title">{{$t('all.software_developer')}} - Frontend</h4>
+                <span class="item-period">2019/10 – {{$t('all.to_present')}}</span>
+                <span class="item-small">Omise Ltd, Thailand</span>
+              </div>
+              <div class="timeline-item">
+                <h4 class="item-title">{{$t('all.software_developer')}} - Consultant</h4>
+                <span class="item-period">2019/10 – 2019/12</span>
+                <span class="item-small">Exuus, Rwanda</span>
+              </div>
+              <div class="timeline-item">
                 <h4 class="item-title">{{$t('all.software_developer')}}</h4>
                 <span class="item-period">2019/04 – 2019/07</span>
                 <span class="item-small">Cellfam, Kenya</span>
@@ -149,7 +159,7 @@
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">Wikilangue</h4>
-                <span class="item-period">2017 - {{$t('all.to_present')}}</span>
+                <span class="item-period">2017 - 2019</span>
                 <span class="item-small">
                   <a href="www.wikilangue.org" target="_blank">www.wikilangue.org</a>
                 </span>
