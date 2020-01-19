@@ -1,11 +1,11 @@
 {
   "name": "oesukam",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "My Portfolio",
   "author": "Olivier ESUKA",
   "private": true,
   "engines": {
-    "node": "10.4.0"
+    "node": "10.15.1"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
