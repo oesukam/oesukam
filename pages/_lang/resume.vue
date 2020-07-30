@@ -47,12 +47,26 @@
             </h3>
             <div class="timeline">
               <div class="timeline-item">
+                <<<<<<< HEAD
                 <h4 class="item-title">
                   {{ $t("all.software_developer") }} - Frontend
                 </h4>
                 <span class="item-period"
                   >2019/10 – {{ $t("all.to_present") }}</span
                 >
+                =======
+                <h4 class="item-title">Tech Lead</h4>
+                <span class="item-period"
+                  >2020/04 – {{ $t("all.to_present") }}</span
+                >
+                <span class="item-small">Exuus Ltd, Rwanda</span>
+              </div>
+              <div class="timeline-item">
+                <h4 class="item-title">
+                  {{ $t("all.software_developer") }} - Frontend
+                </h4>
+                <span class="item-period">2019/10 – 2020/03</span>
+                >>>>>>> ce3ffe3... update exuus job title
                 <span class="item-small">Omise Ltd, Thailand</span>
               </div>
               <div class="timeline-item">
@@ -69,9 +83,7 @@
               </div>
               <div class="timeline-item">
                 <h4 class="item-title">{{ $t("all.software_developer") }}</h4>
-                <span class="item-period"
-                  >2019/07 – {{ $t("all.to_present") }}</span
-                >
+                <span class="item-period">2019/07 – 2020/03</span>
                 <span class="item-small">Andela Kigali LTD, Rwanda</span>
               </div>
               <div class="timeline-item">
@@ -370,9 +382,15 @@
               >
 
               <h4 class="title is-5">Sketch</h4>
+              <<<<<<< HEAD
               <progress class="progress is-info" value="70" max="100"
                 >70%</progress
               >
+              =======
+              <progress class="progress is-info" value="70" max="100"
+                >70%</progress
+              >
+              >>>>>>> ce3ffe3... update exuus job title
             </div>
             <div class="divider-space"></div>
           </div>
