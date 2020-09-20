@@ -47,18 +47,14 @@
             </h3>
             <div class="timeline">
               <div class="timeline-item">
-                <<<<<<< HEAD
-                <h4 class="item-title">
-                  {{ $t("all.software_developer") }} - Frontend
-                </h4>
-                <span class="item-period"
-                  >2019/10 – {{ $t("all.to_present") }}</span
-                >
-                =======
                 <h4 class="item-title">Tech Lead</h4>
                 <span class="item-period"
                   >2020/04 – {{ $t("all.to_present") }}</span
                 >
+                <h4 class="item-title">
+                  {{ $t("all.software_developer") }} - Consultant
+                </h4>
+                <span class="item-period">2019/10 – 2020/04</span>
                 <span class="item-small">Exuus Ltd, Rwanda</span>
               </div>
               <div class="timeline-item">
@@ -66,7 +62,6 @@
                   {{ $t("all.software_developer") }} - Frontend
                 </h4>
                 <span class="item-period">2019/10 – 2020/03</span>
-                >>>>>>> ce3ffe3... update exuus job title
                 <span class="item-small">Omise Ltd, Thailand</span>
               </div>
               <div class="timeline-item">
