@@ -294,29 +294,29 @@
             </div>
             <div class="skills-info">
               <h4 class="title is-5">{{ $t("all.french") }}</h4>
-              <progress class="progress is-info" value="95" max="50"
-                >95%</progress
-              >
+              <progress class="progress is-info" value="95" max="50">
+                95%
+              </progress>
 
               <h4 class="title is-5">{{ $t("all.english") }}</h4>
-              <progress class="progress is-info" value="90" max="100"
-                >90%</progress
-              >
+              <progress class="progress is-info" value="90" max="100">
+                90%
+              </progress>
 
               <h4 class="title is-5">{{ $t("all.swahili") }}</h4>
-              <progress class="progress is-info" value="80" max="100"
-                >80%</progress
-              >
+              <progress class="progress is-info" value="80" max="100">
+                80%
+              </progress>
 
               <h4 class="title is-5">{{ $t("all.lingala") }}</h4>
-              <progress class="progress is-info" value="80" max="100"
-                >80%</progress
-              >
+              <progress class="progress is-info" value="80" max="100">
+                80%
+              </progress>
 
               <h4 class="title is-5">{{ $t("all.chinese") }}</h4>
-              <progress class="progress is-info" value="40" max="100"
-                >40%</progress
-              >
+              <progress class="progress is-info" value="40" max="100">
+                40%
+              </progress>
             </div>
             <div class="divider-space"></div>
           </div>
@@ -328,29 +328,29 @@
             </div>
             <div class="skills-info">
               <h4 class="title is-5">CentOS</h4>
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
+              <progress class="progress is-info" value="70" max="100">
+                70%
+              </progress>
 
               <h4 class="title is-5">Mac OS</h4>
-              <progress class="progress is-info" value="90" max="100"
-                >90%</progress
-              >
+              <progress class="progress is-info" value="90" max="100">
+                90%
+              </progress>
 
               <h4 class="title is-5">RedHat / Fedora</h4>
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
+              <progress class="progress is-info" value="70" max="100">
+                70%
+              </progress>
 
               <h4 class="title is-5">Ubuntu</h4>
-              <progress class="progress is-info" value="85" max="100"
-                >85%</progress
-              >
+              <progress class="progress is-info" value="85" max="100">
+                85%
+              </progress>
 
               <h4 class="title is-5">Windows XP, 7, 8.1, 10</h4>
-              <progress class="progress is-info" value="90" max="100"
-                >90%</progress
-              >
+              <progress class="progress is-info" value="90" max="100">
+                90%
+              </progress>
             </div>
             <div class="divider-space"></div>
           </div>
@@ -362,30 +362,24 @@
             </div>
             <div class="skills-info">
               <h4 class="title is-5">Autocad</h4>
-              <progress class="progress is-info" value="60" max="100"
-                >60%</progress
-              >
+              <progress class="progress is-info" value="60" max="100">
+                60%
+              </progress>
 
               <h4 class="title is-5">Illustrator</h4>
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
+              <progress class="progress is-info" value="70" max="100">
+                70%
+              </progress>
 
               <h4 class="title is-5">Photoshop</h4>
-              <progress class="progress is-info" value="80" max="100"
-                >80%</progress
-              >
+              <progress class="progress is-info" value="80" max="100">
+                80%
+              </progress>
 
               <h4 class="title is-5">Sketch</h4>
-              <<<<<<< HEAD
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
-              =======
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
-              >>>>>>> ce3ffe3... update exuus job title
+              <progress class="progress is-info" value="70" max="100">
+                70%
+              </progress>
             </div>
             <div class="divider-space"></div>
           </div>
@@ -397,36 +391,36 @@
             </div>
             <div class="skills-info">
               <h4 class="title is-5">HTMl, CSS & JS</h4>
-              <progress class="progress is-info" value="90" max="100"
-                >90%</progress
-              >
+              <progress class="progress is-info" value="90" max="100">
+                90%
+              </progress>
 
               <h4 class="title is-5">AngularJS</h4>
-              <progress class="progress is-info" value="60" max="100"
-                >60%</progress
-              >
+              <progress class="progress is-info" value="60" max="100">
+                60%
+              </progress>
 
               <h4 class="title is-5">JQuery</h4>
-              <progress class="progress is-info" value="80" max="100"
-                >80%</progress
-              >
+              <progress class="progress is-info" value="80" max="100">
+                80%
+              </progress>
 
               <h4 class="title is-5">ReactJS</h4>
-              <progress class="progress is-info" value="80" max="100"
-                >80%</progress
-              >
+              <progress class="progress is-info" value="80" max="100">
+                80%
+              </progress>
 
               <h4 class="title is-5">
                 UI: Bulma, Bootstrap, Element-UI & Tailwing
               </h4>
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
+              <progress class="progress is-info" value="70" max="100">
+                70%
+              </progress>
 
               <h4 class="title is-5">VueJS</h4>
-              <progress class="progress is-info" value="90" max="100"
-                >90%</progress
-              >
+              <progress class="progress is-info" value="90" max="100">
+                90%
+              </progress>
             </div>
             <div class="divider-space"></div>
           </div>
@@ -438,24 +432,24 @@
             </div>
             <div class="skills-info">
               <h4 class="title is-5">Flask Python</h4>
-              <progress class="progress is-info" value="60" max="100"
-                >60%</progress
-              >
+              <progress class="progress is-info" value="60" max="100">
+                60%
+              </progress>
 
               <h4 class="title is-5">Laravel PHP</h4>
-              <progress class="progress is-info" value="80" max="100"
-                >80%</progress
-              >
+              <progress class="progress is-info" value="80" max="100">
+                80%
+              </progress>
 
               <h4 class="title is-5">NodeJS</h4>
-              <progress class="progress is-info" value="90" max="100"
-                >90%</progress
-              >
+              <progress class="progress is-info" value="90" max="100">
+                90%
+              </progress>
 
               <h4 class="title is-5">USSD Comviva Gateway</h4>
-              <progress class="progress is-info" value="90" max="100"
-                >90%</progress
-              >
+              <progress class="progress is-info" value="90" max="100">
+                90%
+              </progress>
             </div>
             <div class="divider-space"></div>
           </div>
@@ -467,14 +461,14 @@
             </div>
             <div class="skills-info">
               <h4 class="title is-5">Joomla</h4>
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
+              <progress class="progress is-info" value="70" max="100">
+                70%
+              </progress>
 
               <h4 class="title is-5">WordPress</h4>
-              <progress class="progress is-info" value="90" max="100"
-                >90%</progress
-              >
+              <progress class="progress is-info" value="90" max="100">
+                90%
+              </progress>
             </div>
             <div class="divider-space"></div>
           </div>
@@ -486,44 +480,44 @@
             </div>
             <div class="skills-info">
               <h4 class="title is-5">C</h4>
-              <progress class="progress is-info" value="80" max="100"
-                >80%</progress
-              >
+              <progress class="progress is-info" value="80" max="100">
+                80%
+              </progress>
 
               <h4 class="title is-5">C++</h4>
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
+              <progress class="progress is-info" value="70" max="100">
+                70%
+              </progress>
 
               <h4 class="title is-5">C#</h4>
-              <progress class="progress is-info" value="60" max="100"
-                >60%</progress
-              >
+              <progress class="progress is-info" value="60" max="100">
+                60%
+              </progress>
 
               <h4 class="title is-5">Java</h4>
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
+              <progress class="progress is-info" value="70" max="100">
+                70%
+              </progress>
 
               <h4 class="title is-5">NodeJS</h4>
-              <progress class="progress is-info" value="80" max="100"
-                >80%</progress
-              >
+              <progress class="progress is-info" value="80" max="100">
+                80%
+              </progress>
 
               <h4 class="title is-5">Lua</h4>
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
+              <progress class="progress is-info" value="70" max="100">
+                70%
+              </progress>
 
               <h4 class="title is-5">PHP</h4>
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
+              <progress class="progress is-info" value="70" max="100">
+                70%
+              </progress>
 
               <h4 class="title is-5">Python</h4>
-              <progress class="progress is-info" value="70" max="100"
-                >70%</progress
-              >
+              <progress class="progress is-info" value="70" max="100">
+                70%
+              </progress>
             </div>
             <div class="divider-space"></div>
           </div>
@@ -537,8 +531,8 @@
 import Layout from "~/components/PageLayout";
 export default {
   components: {
-    Layout
-  }
+    Layout,
+  },
 };
 </script>
 
