@@ -8,7 +8,7 @@
           </div>
           <div class="column is-two-third is-items-center is-content-center">
             <div class="intro-details">
-              <h2 class="title is-2 is-white">Olivier M. ESUKA</h2>
+              <h2 class="title is-2 is-white">Olivier M. Esuka</h2>
               <div class="social-links">
                 <a href="https://www.twitter.com/oesukam/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
                 <!-- <a href="#" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a> -->
