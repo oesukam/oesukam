@@ -3,7 +3,7 @@
     <nav id="top-menu" class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand is-items-center">
         <a id="top-names" href="/">
-          <h1 class="site-title">Olivier<span>ESUKA MUSELEMU</span></h1>
+          <h1 class="site-title">Olivier<span>M. Esuka</span></h1>
         </a>
         <a @click.prevent="menu = !menu" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
