@@ -1,5 +1,12 @@
-# Olivier M. Esuka
+### Hello There 👋
 
-I'm a full-stack software engineer with 7+ years of prefessional software development
+![](https://github-readme-stats.vercel.app/api?username=oesukam&show_icons=true&count_private=true)
 
-> [My Portfolio](www.oesukam.me)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=oesukam&layout=compact)
+
+To get started:
+
+- I’m currently working on ...
+- I’m currently learning ...
+- I’m looking to collaborate on ...
+- Want to reach out: [www.oesukam.me](www.oesukam.me)
